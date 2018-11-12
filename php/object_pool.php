@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class Factory
+ */
 class Factory
 {
     protected static $products = [];
