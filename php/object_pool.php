@@ -59,5 +59,3 @@ var_dump(Factory::getProduct('first')->getId());
 // first
 var_dump(Factory::getProduct('second')->getId());
 // second
-
-?>
