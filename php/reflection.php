@@ -51,6 +51,6 @@ class PersonModule implements Module {
   }
 
   public function setPerson(Person $person) {
-    print "PersonModele::setPerson: {$person->getName()}";
+    print "PersonModule::setPerson: {$person->getName()}";
   }
 }
