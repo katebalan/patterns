@@ -27,32 +27,31 @@ class Singleton {
         void setValue(int val) {
             value = val;
         }
+
+        void print(string name) {
+            cout << name << " object: \t\t" << instance->getValue() << endl;
+            cout << name << " object address: \t" << instance << endl;
+        }
 };
 
 Singleton* Singleton::instance = 0;
 
 int main() {
-    Singleton* one = Singleton::getInstance();
-    Singleton* two = Singleton::getInstance();
+    Singleton* first = Singleton::getInstance();
+    Singleton* second = Singleton::getInstance();
 
-    cout << "First object: \t\t" << one->getValue() << endl;
-    cout << "First object address: \t" << one << endl;
-    cout << "Second object: \t\t" << two->getValue() << endl;
-    cout << "Second object address: \t" << two << endl;
+    first->print("First");
+    second->print("Second");
 
-    two->setValue(5);
+    first->setValue(5);
 
-    cout << "First object: \t\t" << one->getValue() << endl;
-    cout << "First object address: \t" << one << endl;
-    cout << "Second object: \t\t" << two->getValue() << endl;
-    cout << "Second object address: \t" << two << endl;
+    first->print("First");
+    second->print("Second");
 
-    one->setValue(18);
+    second->setValue(18);
 
-    cout << "First object: \t\t" << one->getValue() << endl;
-    cout << "First object address: \t" << one << endl;
-    cout << "Second object: \t\t" << two->getValue() << endl;
-    cout << "Second object address: \t" << two << endl;
+    first->print("First");
+    second->print("Second");
 
     return 0;
 }
