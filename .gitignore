@@ -3,3 +3,4 @@ c/*
 !c/*.cpp
 
 /vendor/
+.phpunit.result.cache
