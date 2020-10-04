@@ -1,0 +1,13 @@
+{
+    "name": "katebalan/patterns",
+    "type": "project",
+    "require": {
+        "php": "^7.1.3",
+        "phpunit/phpunit": "^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "php\\": "php/"
+        }
+    }
+}

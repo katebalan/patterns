@@ -1,5 +1,7 @@
 <?php
 
+namespace php\singleton;
+
 final class Product
 {
     private static $instance;
@@ -33,15 +35,3 @@ final class Product
     {
     }
 }
-
-$firstProduct = Product::getInstance();
-$secondProduct = Product::getInstance();
-
-$firstProduct->a = 1;
-$secondProduct->a = 4;
-
-print_r($firstProduct->a);
-// 2
-print_r($secondProduct->a);
-// 2
-?>
