@@ -1,13 +1,13 @@
 <?php
+declare(strict_types = 1);
 
-
-namespace php\singleton;
+namespace php\Singleton;
 
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class ParametersTest
- * @package php\singleton
+ * @package php\Singleton
  */
 class SingletonTest extends TestCase
 {
