@@ -2,16 +2,21 @@
 
 namespace php\singleton;
 
+/**
+ * Class Product
+ * @package php\singleton
+ */
 final class Product
 {
+    /** @var Product */
     private static $instance;
 
     public $a;
 
     /**
-     * @return mixed
+     * @return Product
      */
-    public static function getInstance()
+    public static function getInstance(): Product
     {
         if (!(self::$instance instanceof self)) {
             self::$instance = new self();
@@ -19,19 +24,8 @@ final class Product
         return self::$instance;
     }
 
-    public function __construct()
-    {
-    }
-
-    public function __clone()
-    {
-    }
-
-    public function __sleep()
-    {
-    }
-
-    public function __wakeup()
-    {
-    }
+    private function __construct() {}
+    private function __clone() {}
+    private function __sleep() {}
+    private function __wakeup() {}
 }
