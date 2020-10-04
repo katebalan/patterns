@@ -11,6 +11,6 @@ class BombRoom extends Room
 {
     public function enter(): bool
     {
-        return parent::enter();
+        return $value = rand(0,1) == 1;
     }
 }

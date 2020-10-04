@@ -9,5 +9,8 @@ namespace AbstractFactory;
  */
 class BombDoor extends Door
 {
-
+    public function enter(): bool
+    {
+        return $value = rand(0,1) == 1;
+    }
 }
