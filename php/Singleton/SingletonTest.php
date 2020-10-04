@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\Singleton;
+namespace Singleton;
 
 use PHPUnit\Framework\TestCase;
 

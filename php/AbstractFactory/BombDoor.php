@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\AbstractFactory;
+namespace AbstractFactory;
 
 /**
  * Class BombDoor
- * @package php\AbstractFactory
+ * @package AbstractFactory
  */
 class BombDoor extends Door
 {

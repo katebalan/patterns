@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\Singleton;
+namespace Singleton;
 
 /**
  * Class Parameters
- * @package php\Singleton
+ * @package Singleton
  */
 class Parameters
 {

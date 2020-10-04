@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\Singleton;
+namespace Singleton;
 
 /**
  * Class Product
- * @package php\Singleton
+ * @package Singleton
  */
 final class Product
 {

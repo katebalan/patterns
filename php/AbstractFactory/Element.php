@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\AbstractFactory;
+namespace AbstractFactory;
 
 /**
  * Class Element
- * @package php\AbstractFactory
+ * @package AbstractFactory
  */
 abstract class Element
 {

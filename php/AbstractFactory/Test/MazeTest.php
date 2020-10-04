@@ -1,16 +1,16 @@
 <?php
 declare(strict_types = 1);
 
-namespace php\AbstractFactory\Test;
+namespace AbstractFactory\Test;
 
-use php\AbstractFactory\Maze;
-use php\AbstractFactory\MazeFactory;
-use php\AbstractFactory\MazeGame;
+use AbstractFactory\Maze;
+use AbstractFactory\MazeFactory;
+use AbstractFactory\MazeGame;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class MazeTest
- * @package php\AbstractFactory\Test
+ * @package AbstractFactory\Test
  */
 class MazeTest extends TestCase
 {
